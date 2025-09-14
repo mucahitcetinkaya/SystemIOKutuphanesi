@@ -1,0 +1,35 @@
+
+
+Bölüm 24 : Dosya ve Klasör Ýþlemleri
+Video 220 Bilgilendirme
+
+        #region VÝDEO 220 Bilgilendirme
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V220 Bilgilendirme
+
+            */
+
+
+            /*
+
+            1. not baslangýç
+
+            CSharpEgitim_2 dersinin bölüm 24 ü ayrý olarak iþlemek istedim
+
+            Bu bölümde C# ý kullanarak sabit diskimiz de bulunan dosya klasör iþlemlerini nasýl yönetebileceðimizi öðreneceðiz.
+            Gerçek hayatta sýklýkla kullanmýþ olduðumuz System.IO namespace ini kullanarak 
+            Klasörler oluþturacaðýz onlarý yöneteceðiz daha sonra dosyalar oluþturup bunlarý yönetmeye çalýþacaðýz.
+
+            Gerçek hayatta database e gittiðimiz kadar dosya ve klasörlere de ihtiyaç duyarýz 
+
+            */
+
+
+        }
+
+        #endregion
