@@ -1,0 +1,60 @@
+
+
+Bölüm 24 : Dosya ve Klasör Ýþlemleri
+Video 226 File.Create ( Yeni Dosya Oluþturma )
+
+
+        #region VÝDEO 226 File.Create ( Yeni Dosya Oluþturma )
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V226 File.Create ( Yeni Dosya Oluþturma )
+
+            */
+
+
+            /*
+
+            1. not baslangýç
+
+            Directory yerine bu sefer File sýnýfýný kullanacagýz
+            yeni metot olusturarak baslayalým
+
+            static void FileCreate(string path)
+            {
+                 FileStream dosya = File.Create(path);
+                 dosya.Close();
+
+            }
+
+            File.Create ýn 4 adet overload metotu var
+            geriye FileStream olarak dönuyor
+            
+            close yapmamýzýn nedeni
+            bir class cagýrýp olusturdugumuz için program uzerýnden olusturuyoruz ve acýk kalýyor kullanýlýyor
+            close yapýyoruz ki program bundan cýksýn kullanýlabilir olsun diye
+
+            FileCreate metounu cagýralým
+
+            FileCreate("C:\\Udemy\\merhaba.txt");
+
+            c nin içindeki udemy klasörünün içinde merhaba.txt adýnda bir dosya olustur
+
+            */
+
+            FileCreate("C:\\Udemy\\merhaba.txt");
+
+
+        }
+
+        static void FileCreate(string path)
+        {
+            FileStream dosya = File.Create(path);
+            dosya.Close();
+        }
+
+
+        #endregion
