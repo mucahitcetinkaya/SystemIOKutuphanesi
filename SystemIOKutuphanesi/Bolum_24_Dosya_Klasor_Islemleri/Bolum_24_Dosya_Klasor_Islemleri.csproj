@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Not\Bolum_24_Dosya_Klasor_Islemleri-V220.txt" />
+    <Content Include="Not\Bolum_24_Dosya_Klasor_Islemleri-V221.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,107 @@
+
+
+Bölüm 24 : Dosya ve Klasör Ýþlemleri
+Video 221 Directory.CreateDirectory(Yeni Klasör Oluþturma )
+
+
+        #region VÝDEO 221 Directory.CreateDirectory(Yeni Klasör Oluþturma )
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V221 Directory.CreateDirectory( Yeni Klasör Oluþturma )
+
+            */
+
+
+            /*
+
+            1. not baslangýç
+
+            Directory sýnýfýndan bahsedelim cagýrdýgýmýz da system.ýo kutuphanesini ekler => using System.IO;
+
+            Directory sýnýfý bizim sabit disk üzerinde klasör iþlemleri yapmamýza olanak saðlar.
+
+            1. not bitiþ
+
+            2. not baslangýc
+
+            bir metot olusturalým 
+
+            static void YeniKlasorOlustur(string path)
+            {
+                Directory.CreateDirectory(path);
+            }
+
+            static yaptýk direk cagýrabileceðiz
+            void geriye biþey donmeyecek
+            string tipinde bir path parametresi alacak
+            Directory.CreateDirectory ile path e gelen konuma olusturacak
+
+            CreateDirectory i biraz inceleyelim
+
+            Directory sýnýfýnýn içerisinde CreateDirectory ulabilmek için sadece . operatörü ile eriþebildim.
+            Demekki Directory sýnýfýnýn içerisinde CreateDirectory static bir metot.
+            Orneklemeden ulasmamý sagladý.
+
+            benden parametre alýyor ve DirectoryInfo adýnda bir deger döndürüyor
+
+            DirectoryInfo olarak cagýrýp bir degiskene atayalým ve ne geliyor bakalým
+
+            son durum
+
+            static void YeniKlasorOlustur(string path)
+            {
+                //Directory.CreateDirectory(path);
+                DirectoryInfo D1 = Directory.CreateDirectory(path);
+            }
+
+            CreateDirectory bizden 2 farklý parametre istiyor 
+            ilgili klasörün güvenlik ayarlarýný girmen lazým
+            o tarafta þimdilik iþimiz yok oraya girmiyoruz
+
+            2. not bitiþ
+
+            3. not baslangýc
+
+            metotu cagýrýp c nin içinde bir klasör olusturalým
+
+            YeniKlasorOlustur("C:\\Udemy");
+
+            breakpoint ile kontrol edelim
+
+            olusturdu sorun yok 
+
+            DirectoryInfo olarak D1 e atadýgý degerlere bakmak gerekirse
+
+            ne zaman olusturuldu
+            ust klasör var mý 
+            adý 
+            path adresi
+            exist yani orada bulunuyor mu 
+            vs vs gibi bir cok degere ulabiliyoruz
+
+            sýrada varlýk kontrolunu yapalým diger derse gecelim
+
+
+            */
+
+            // 1. not baslangýc
+
+            //Directory.CreateDirectory();
+
+            YeniKlasorOlustur("C:\\Udemy");
+
+
+        }
+
+        // 2. not baslangýc
+        static void YeniKlasorOlustur(string path)
+        {
+            //Directory.CreateDirectory(path);
+            DirectoryInfo D1 = Directory.CreateDirectory(path);
+        }
+
+        #endregion
