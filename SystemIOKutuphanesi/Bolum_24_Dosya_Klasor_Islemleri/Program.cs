@@ -285,6 +285,138 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 224 Ödev
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V224 Ödev
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    C nin içinde Udemy adında bir klasör olusturun oluşturmadan önce varlık kontrol yapın klasör var ise silin sonra olusturun klasör yok ise direk olusturun bu adımların bilgisini ekrana yazdırın
+
+        //    benim yaptıgım
+
+        //     string path = "C:\\Udemy";
+
+        //    bool varMi = Directory.Exists(path);
+
+        //    if (varMi)
+        //    {
+        //        Console.WriteLine("C de Udemy klasörü var.");
+        //        Directory.Delete(path,true);
+        //        Console.WriteLine("C deki Udemy klasörü silindi.");
+        //        Directory.CreateDirectory(path);
+        //        Console.WriteLine("C de Udemy klasörü oluşturuldu.");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("C de Udemy klasörü yok.");
+        //        Directory.CreateDirectory(path);
+        //        Console.WriteLine("C de Udemy klasörü oluşturuldu.");
+        //    }
+
+
+        //     //------------------------------hocanın yaptıgı-----------------------------------------------
+
+        //    string dosyaYolu = "C:\\Udemy";
+
+        //    bool kontrol = Directory.Exists(dosyaYolu);
+
+        //    if (kontrol)
+        //    {
+        //        Console.WriteLine("Eklemek istediğiniz klasör sistemde mecvut.");
+        //        Console.Write("Silmek ve yerine yeni olarak oluşturmak istiyor musunuz [E/H]");
+        //        string cevap = Console.ReadLine().ToUpper();
+        //        if (cevap == "E")
+        //        {
+        //            Directory.Delete(dosyaYolu, true);
+        //            Console.WriteLine("Dosya silme işlemi tamamlandı.");
+        //            System.Threading.Thread.Sleep(2000);
+        //            Console.WriteLine(dosyaYolu + " sisteminizde oluşturuluyor.");
+        //            Directory.CreateDirectory(dosyaYolu);
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("İşlem bitti.");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        DirectoryInfo d1 = Directory.CreateDirectory(dosyaYolu);
+        //        if(d1.Exists)
+        //        {
+        //            Console.WriteLine("Dosya sistemde oluşturuldu.");
+        //        }
+        //    }
+
+
+
+        //    */
+
+        //    //string path = "C:\\Udemy";
+
+        //    //bool varMi = Directory.Exists(path);
+
+        //    //if (varMi)
+        //    //{
+        //    //    Console.WriteLine("C de Udemy klasörü var.");
+        //    //    Directory.Delete(path,true);
+        //    //    Console.WriteLine("C deki Udemy klasörü silindi.");
+        //    //    Directory.CreateDirectory(path);
+        //    //    Console.WriteLine("C de Udemy klasörü oluşturuldu.");
+        //    //}
+        //    //else
+        //    //{
+        //    //    Console.WriteLine("C de Udemy klasörü yok.");
+        //    //    Directory.CreateDirectory(path);
+        //    //    Console.WriteLine("C de Udemy klasörü oluşturuldu.");
+        //    //}
+
+        //    //////------------------------------hocanın yaptıgı-----------------------------------------------
+
+        //    ////string dosyaYolu = "C:\\Udemy";
+
+        //    ////bool kontrol = Directory.Exists(dosyaYolu);
+
+        //    ////if (kontrol)
+        //    ////{
+        //    ////    Console.WriteLine("Eklemek istediğiniz klasör sistemde mecvut.");
+        //    ////    Console.Write("Silmek ve yerine yeni olarak oluşturmak istiyor musunuz [E/H]");
+        //    ////    string cevap = Console.ReadLine().ToUpper();
+        //    ////    if (cevap == "E")
+        //    ////    {
+        //    ////        Directory.Delete(dosyaYolu, true);
+        //    ////        Console.WriteLine("Dosya silme işlemi tamamlandı.");
+        //    ////        System.Threading.Thread.Sleep(2000);
+        //    ////        Console.WriteLine(dosyaYolu + " sisteminizde oluşturuluyor.");
+        //    ////        Directory.CreateDirectory(dosyaYolu);
+        //    ////    }
+        //    ////    else
+        //    ////    {
+        //    ////        Console.WriteLine("İşlem bitti.");
+        //    ////    }
+        //    ////}
+        //    ////else
+        //    ////{
+        //    ////    DirectoryInfo d1 = Directory.CreateDirectory(dosyaYolu);
+        //    ////    if(d1.Exists)
+        //    ////    {
+        //    ////        Console.WriteLine("Dosya sistemde oluşturuldu.");
+        //    ////    }
+        //    ////}
+
+        //}
+
+        #endregion
 
 
 

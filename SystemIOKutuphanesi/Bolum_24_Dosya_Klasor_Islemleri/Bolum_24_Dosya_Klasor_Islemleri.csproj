@@ -54,6 +54,7 @@
     <Content Include="Not\Bolum_24_Dosya_Klasor_Islemleri-V221.txt" />
     <Content Include="Not\Bolum_24_Dosya_Klasor_Islemleri-V222.txt" />
     <Content Include="Not\Bolum_24_Dosya_Klasor_Islemleri-V223.txt" />
+    <Content Include="Not\Bolum_24_Dosya_Klasor_Islemleri-V224.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
