@@ -1,0 +1,69 @@
+
+
+Bölüm 24 : Dosya ve Klasör Ýþlemleri
+Video 228 File.Delete ( Dosya Silme )
+
+
+        #region VÝDEO 228 File.Delete ( Dosya Silme )
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V228 File.Delete ( Dosya Silme )
+
+            */
+
+
+            /*
+
+            1. not baslangýç
+
+            File.Delete dosya silmeyi iþleyelim
+
+            File.Delete geriye biþey donmez void
+
+            metot olusturup cagýralým
+
+            path içerisinde aranan yoksa hata verir veya create ile olusturdun ama close yapmadýn delete e geldi yine hata verir
+            FileStream onu kullanýyor silemez der.
+
+            */
+
+
+
+            bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+            if (kontrol)
+            {
+                Console.WriteLine("Belirtmiþ olduðunuz dosya bulunmaktadýr.");
+            }
+            else
+            {
+                FileCreate("C:\\Udemy\\merhaba.txt");
+            }
+
+            FileDelete("C:\\Udemy\\merhaba.txt");
+
+        }
+
+        static void FileCreate(string path)
+        {
+            FileStream dosya = File.Create(path);
+            dosya.Close();
+        }
+
+        static bool FileExists(string path)
+        {
+            return File.Exists(path);
+
+        }
+
+        static void FileDelete(string path)
+        {
+            File.Delete(path);
+
+        }
+
+        #endregion

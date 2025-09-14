@@ -552,61 +552,126 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
 
         #region VİDEO 227 File.Exists ( Dosya Varlık Kontrolü )
 
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            /*
+        //    /*
 
-            Bolum 24 Dosya ve Klasor Islemleri V227 File.Exists ( Dosya Varlık Kontrolü )
+        //    Bolum 24 Dosya ve Klasor Islemleri V227 File.Exists ( Dosya Varlık Kontrolü )
 
-            */
-
-
-            /*
-
-            1. not baslangıç
-
-            File.Exists geriye bool döner dosya var mı diye kontrol eder
-
-            metot olusturalım
-
-                static bool FileExists(string path)
-                {
-                   return File.Exists(path);
-                }
-
-            cagırıp kontrol edelim.
-
-            */
+        //    */
 
 
+        //    /*
 
-            bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+        //    1. not baslangıç
 
-            if (kontrol)
-            {
-                Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
-            }
-            else 
-            {
-                FileCreate("C:\\Udemy\\merhaba.txt");
-            }
+        //    File.Exists geriye bool döner dosya var mı diye kontrol eder
+
+        //    metot olusturalım
+
+        //        static bool FileExists(string path)
+        //        {
+        //           return File.Exists(path);
+        //        }
+
+        //    cagırıp kontrol edelim.
+
+        //    */
 
 
 
-        }
+        //    bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
 
-        static void FileCreate(string path)
-        {
-            FileStream dosya = File.Create(path);
-            dosya.Close();
-        }
+        //    if (kontrol)
+        //    {
+        //        Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
+        //    }
+        //    else 
+        //    {
+        //        FileCreate("C:\\Udemy\\merhaba.txt");
+        //    }
 
-        static bool FileExists(string path)
-        {
-            return File.Exists(path);
 
-        }
+
+        //}
+
+        //static void FileCreate(string path)
+        //{
+        //    FileStream dosya = File.Create(path);
+        //    dosya.Close();
+        //}
+
+        //static bool FileExists(string path)
+        //{
+        //    return File.Exists(path);
+
+        //}
+
+        #endregion
+
+
+        #region VİDEO 228 File.Delete ( Dosya Silme )
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V228 File.Delete ( Dosya Silme )
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    File.Delete dosya silmeyi işleyelim
+
+        //    File.Delete geriye bişey donmez void
+
+        //    metot olusturup cagıralım
+
+        //    path içerisinde aranan yoksa hata verir veya create ile olusturdun ama close yapmadın delete e geldi yine hata verir
+        //    FileStream onu kullanıyor silemez der.
+
+        //    */
+
+
+
+        //    bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+        //    if (kontrol)
+        //    {
+        //        Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
+        //    }
+        //    else
+        //    {
+        //        FileCreate("C:\\Udemy\\merhaba.txt");
+        //    }
+
+        //    FileDelete("C:\\Udemy\\merhaba.txt");
+
+        //}
+
+        //static void FileCreate(string path)
+        //{
+        //    FileStream dosya = File.Create(path);
+        //    dosya.Close();
+        //}
+
+        //static bool FileExists(string path)
+        //{
+        //    return File.Exists(path);
+
+        //}
+
+        //static void FileDelete(string path)
+        //{
+        //    File.Delete(path);
+
+        //}
 
         #endregion
 
