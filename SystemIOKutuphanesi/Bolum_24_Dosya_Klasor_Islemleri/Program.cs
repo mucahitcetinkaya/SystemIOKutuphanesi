@@ -153,6 +153,70 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 222 Directory.Exists ( Varlık Kontrolünün Sağlanması )
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V222 Directory.Exists ( Varlık Kontrolünün Sağlanması )
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    sırada varlık kontrolunu yapalım 
+
+        //    yeni bir metot olusturalım
+
+
+        //    static void YeniKlasorVarlikKontrol(string path)
+        //    {
+        //         bool varMı = Directory.Exists(path);
+        //    }
+
+        //    Exists metotunu cagıralım 
+        //    Exists almıs oldugu degerin yani path in konumunda olup olmadıgına bakar
+        //    geriye bool doner 
+
+        //    C içinde Udemy klasörü var mı diye bakar
+
+        //    su anda C nin içinde Udemy klasörü bulunuyor ne olacak bi bakalım
+
+        //    YeniKlasorVarlikKontrol breakpoint ekleyelim ve kontrol edelim
+
+        //    main deki metot calıstı ilgili metot a gitti path i aldı
+
+        //    varMı true döndü çünkü var
+
+        //    silip baktıgımız da false döndü
+
+        //    diger derste delete işlemlerine bakacagız
+
+        //    */
+
+
+        //    //YeniKlasorOlustur("C:\\Udemy");
+        //    YeniKlasorVarlikKontrol("C:\\Udemy");
+
+
+        //}
+
+        //static void YeniKlasorOlustur(string path)
+        //{
+        //    DirectoryInfo D1 = Directory.CreateDirectory(path);
+        //}
+
+        //static void YeniKlasorVarlikKontrol(string path)
+        //{
+        //    bool varMı = Directory.Exists(path);
+        //}
+
+        #endregion
 
 
     }
