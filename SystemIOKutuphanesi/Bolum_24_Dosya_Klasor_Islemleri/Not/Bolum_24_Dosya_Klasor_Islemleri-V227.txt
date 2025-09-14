@@ -1,0 +1,65 @@
+
+
+Bölüm 24 : Dosya ve Klasör Ýþlemleri
+Video 227 File.Exists ( Dosya Varlýk Kontrolü )
+
+
+        #region VÝDEO 227 File.Exists ( Dosya Varlýk Kontrolü )
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V227 File.Exists ( Dosya Varlýk Kontrolü )
+
+            */
+
+
+            /*
+
+            1. not baslangýç
+
+            File.Exists geriye bool döner dosya var mý diye kontrol eder
+
+            metot olusturalým
+
+                static bool FileExists(string path)
+                {
+                   return File.Exists(path);
+                }
+
+            cagýrýp kontrol edelim.
+
+            */
+
+
+
+            bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+            if (kontrol)
+            {
+                Console.WriteLine("Belirtmiþ olduðunuz dosya bulunmaktadýr.");
+            }
+            else 
+            {
+                FileCreate("C:\\Udemy\\merhaba.txt");
+            }
+
+
+
+        }
+
+        static void FileCreate(string path)
+        {
+            FileStream dosya = File.Create(path);
+            dosya.Close();
+        }
+
+        static bool FileExists(string path)
+        {
+            return File.Exists(path);
+
+        }
+
+        #endregion

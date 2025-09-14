@@ -1,5 +1,6 @@
 ﻿
 
+using System;
 using System.IO;
 
 
@@ -521,7 +522,7 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
 
         //    File.Create ın 4 adet overload metotu var
         //    geriye FileStream olarak dönuyor
-            
+
         //    close yapmamızın nedeni
         //    bir class cagırıp olusturdugumuz için program uzerınden olusturuyoruz ve acık kalıyor kullanılıyor
         //    close yapıyoruz ki program bundan cıksın kullanılabilir olsun diye
@@ -547,6 +548,68 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
 
 
         #endregion
+
+
+        #region VİDEO 227 File.Exists ( Dosya Varlık Kontrolü )
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V227 File.Exists ( Dosya Varlık Kontrolü )
+
+            */
+
+
+            /*
+
+            1. not baslangıç
+
+            File.Exists geriye bool döner dosya var mı diye kontrol eder
+
+            metot olusturalım
+
+                static bool FileExists(string path)
+                {
+                   return File.Exists(path);
+                }
+
+            cagırıp kontrol edelim.
+
+            */
+
+
+
+            bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+            if (kontrol)
+            {
+                Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
+            }
+            else 
+            {
+                FileCreate("C:\\Udemy\\merhaba.txt");
+            }
+
+
+
+        }
+
+        static void FileCreate(string path)
+        {
+            FileStream dosya = File.Create(path);
+            dosya.Close();
+        }
+
+        static bool FileExists(string path)
+        {
+            return File.Exists(path);
+
+        }
+
+        #endregion
+
 
 
     }
