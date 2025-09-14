@@ -1,0 +1,78 @@
+
+
+Bölüm 24 : Dosya ve Klasör Ýþlemleri
+Video 225 Directory.Move ( Klasör Taþýma )
+
+
+        #region VÝDEO 225 Directory.Move ( Klasör Taþýma )
+
+        static void Main(string[] args)
+        {
+
+            /*
+
+            Bolum 24 Dosya ve Klasor Islemleri V225 Directory.Move ( Klasör Taþýma )
+
+
+            */
+
+
+            /*
+
+            1. not baslangýç
+
+            var olan bir klasörü bir noktadan baska bir noktaya tasýma iþlemine bakalým
+            tasýmak için 2 tane bilgi gerekiyor
+            tasýnacak olan klasörün bulundugu adres ve tasýnacak adres
+            kaynak ve hedef yani 
+            yeni bir metot olusturalým
+
+            static void KlasorTasýma(string kaynak, string hedef)
+            {
+                 Directory.Move(hedef, kaynak);
+            }
+
+            Move geriye biþey donmez void metot
+            2 tane parametre istiyor string sourceDirName, string destDirName
+
+            metotu cagýralým
+
+            KlasorTasýma("C:\\Udemy", "C:TasimaIlslemi\\Udemy");
+
+            c içindeki udemy içinden
+            c içindeki TasimaIslemi klasörü içine taþý
+
+            TasimaIslemi klasörünü manuel olarak olusturalým
+
+            */
+
+
+            //YeniKlasorOlustur("C:\\Udemy");
+            //YeniKlasorVarlikKontrol("C:\\Udemy");
+            //YeniKlasorSilme("C:\\Udemy");
+            KlasorTasýma("C:\\Udemy", "C:\\TasimaIslemi\\Udemy");
+
+        }
+
+        static void YeniKlasorOlustur(string path)
+        {
+            DirectoryInfo D1 = Directory.CreateDirectory(path);
+        }
+
+        static void YeniKlasorVarlikKontrol(string path)
+        {
+            bool varMý = Directory.Exists(path);
+        }
+
+        static void YeniKlasorSilme(string path)
+        {
+            Directory.Delete(path);
+            Directory.Delete(path, true);
+        }
+
+        static void KlasorTasýma(string kaynak, string hedef)
+        {
+            Directory.Move(kaynak, hedef);
+        }
+
+        #endregion

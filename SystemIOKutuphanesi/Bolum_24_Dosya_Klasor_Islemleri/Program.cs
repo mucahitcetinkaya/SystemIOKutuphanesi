@@ -419,6 +419,79 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 225 Directory.Move ( Klasör Taşıma )
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V225 Directory.Move ( Klasör Taşıma )
+
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    var olan bir klasörü bir noktadan baska bir noktaya tasıma işlemine bakalım
+        //    tasımak için 2 tane bilgi gerekiyor
+        //    tasınacak olan klasörün bulundugu adres ve tasınacak adres
+        //    kaynak ve hedef yani 
+        //    yeni bir metot olusturalım
+
+        //    static void KlasorTasıma(string kaynak, string hedef)
+        //    {
+        //         Directory.Move(hedef, kaynak);
+        //    }
+
+        //    Move geriye bişey donmez void metot
+        //    2 tane parametre istiyor string sourceDirName, string destDirName
+
+        //    metotu cagıralım
+
+        //    KlasorTasıma("C:\\Udemy", "C:TasimaIlslemi\\Udemy");
+
+        //    c içindeki udemy içinden
+        //    c içindeki TasimaIslemi klasörü içine taşı
+
+        //    TasimaIslemi klasörünü manuel olarak olusturalım
+
+        //    */
+
+
+        //    //YeniKlasorOlustur("C:\\Udemy");
+        //    //YeniKlasorVarlikKontrol("C:\\Udemy");
+        //    //YeniKlasorSilme("C:\\Udemy");
+        //    KlasorTasıma("C:\\Udemy", "C:\\TasimaIslemi\\Udemy");
+
+        //}
+
+        //static void YeniKlasorOlustur(string path)
+        //{
+        //    DirectoryInfo D1 = Directory.CreateDirectory(path);
+        //}
+
+        //static void YeniKlasorVarlikKontrol(string path)
+        //{
+        //    bool varMı = Directory.Exists(path);
+        //}
+
+        //static void YeniKlasorSilme(string path)
+        //{
+        //    Directory.Delete(path);
+        //    Directory.Delete(path, true);
+        //}
+
+        //static void KlasorTasıma(string kaynak, string hedef)
+        //{
+        //    Directory.Move(kaynak, hedef);
+        //}
+
+        #endregion
+
 
     }
 }
