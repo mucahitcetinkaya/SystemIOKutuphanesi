@@ -219,5 +219,74 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 223 Directory.Delete ( Klasör Silme )
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V223 Directory.Delete ( Klasör Silme )
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    yeni bir metot olusturalım silme konusunu işleyelim
+
+
+        //    static void YeniKlasorSilme(string path)
+        //    {
+        //        Directory.Delete(path);
+        //    }
+
+        //        Directory.Delete => void geriye bir şey dönmüyor
+
+        //    C içerisindeki Udemy klasörünü direk siliyor sorun yok
+
+        //    C içerisindeki Udemy klasörünün içine bir dosya ekleyip silmeye çalışınca hata veriyor 
+        //    System.IO.Exception : "The directory is not empty."
+
+        //    Klasör boş değil içi dolu silemiyorum klasörü diyor.
+
+        //    Delete in 2. kullanımı override metotu 2 paremetreli calısıyor
+        //    bool recursive degeri alıyor 
+        //    içerisinde de dosya varsa sileyim mi diye onay istiyor
+
+        //    */
+
+
+        //    //YeniKlasorOlustur("C:\\Udemy");
+        //    //YeniKlasorVarlikKontrol("C:\\Udemy");
+        //    YeniKlasorSilme("C:\\Udemy");
+
+        //}
+
+        //static void YeniKlasorOlustur(string path)
+        //{
+        //    DirectoryInfo D1 = Directory.CreateDirectory(path);
+        //}
+
+        //static void YeniKlasorVarlikKontrol(string path)
+        //{
+        //    bool varMı = Directory.Exists(path);
+        //}
+
+        //static void YeniKlasorSilme(string path)
+        //{
+        //   Directory.Delete(path);
+        //   Directory.Delete(path, true);
+
+        //}
+
+        #endregion
+
+
+
+
+
     }
 }
