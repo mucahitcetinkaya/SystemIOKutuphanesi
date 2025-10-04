@@ -742,5 +742,77 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 230 File.Copy ( Dosya Kopyalama İşlemleri )
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V230 File.Copy ( Dosya Kopyalama İşlemleri )
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    File.Copy dosya Kopyalama işlemine bakalım
+
+        //    klasör varken kopya almaya calısırsan ismine bakıyor var zaten diyo adına kopya yazmıyor yani
+        //    kopyalama yapacaksan önce var mı ona bak varsa sil veya olusturma diye kontrol yazman lazım
+
+        //    */
+
+        //    //bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+        //    //if (kontrol)
+        //    //{
+        //    //    Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
+        //    //}
+        //    //else
+        //    //{
+        //    //    FileCreate("C:\\Udemy\\merhaba.txt");
+        //    //}
+
+        //    FileCopy("C:\\Udemy2\\merhaba.txt", "C:\\Udemy\\merhaba.txt");
+
+        //    //FileMove("C:\\Udemy\\merhaba.txt", "C:\\Udemy2\\merhaba.txt");
+
+        //    FileDelete("C:\\Udemy\\merhaba.txt");
+        //    FileDelete("C:\\Udemy2\\merhaba.txt");
+
+        //}
+
+        //static void FileCreate(string path)
+        //{
+        //    FileStream dosya = File.Create(path);
+        //    dosya.Close();
+        //}
+
+        //static bool FileExists(string path)
+        //{
+        //    return File.Exists(path);
+        //}
+
+        //static void FileDelete(string path)
+        //{
+        //    File.Delete(path);
+        //}
+
+        //static void FileMove(string kaynak, string hedef)
+        //{
+        //    File.Move(kaynak, hedef);
+        //}
+
+        //static void FileCopy(string kaynak, string hedef)
+        //{
+        //    File.Copy(kaynak, hedef);
+        //}
+
+        #endregion
+
+
     }
 }
