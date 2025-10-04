@@ -892,5 +892,93 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 232 File.ReadAllText
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V232 File.ReadAllText
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    File.ReadAllText 
+
+        //    olusturmus oldugumuz içine bir deger yazdırdıgımız dosyayı okuyalım
+
+        //    return File.ReadAllText(path);
+
+        //    ReadAllText string donuyor tek deger alıyor 
+
+        //    */
+
+        //    //bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+        //    //if (kontrol)
+        //    //{
+        //    //    Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
+        //    //}
+        //    //else
+        //    //{
+        //    //    FileCreate("C:\\Udemy\\merhaba.txt");
+        //    //}
+
+
+        //    string okunanDeger = ReadAllText("C:\\Udemy\\merhaba.txt");
+
+
+        //    //FileAppendText("C:\\Udemy\\merhaba.txt", "txt içine deger yaz");
+        //    //FileCopy("C:\\Udemy2\\merhaba.txt", "C:\\Udemy\\merhaba.txt");
+        //    //FileMove("C:\\Udemy\\merhaba.txt", "C:\\Udemy2\\merhaba.txt");
+        //    //FileDelete("C:\\Udemy\\merhaba.txt");
+        //    //FileDelete("C:\\Udemy2\\merhaba.txt");
+
+        //}
+
+        //static void FileCreate(string path)
+        //{
+        //    FileStream dosya = File.Create(path);
+        //    dosya.Close();
+        //}
+
+        //static bool FileExists(string path)
+        //{
+        //    return File.Exists(path);
+        //}
+
+        //static void FileDelete(string path)
+        //{
+        //    File.Delete(path);
+        //}
+
+        //static void FileMove(string kaynak, string hedef)
+        //{
+        //    File.Move(kaynak, hedef);
+        //}
+
+        //static void FileCopy(string kaynak, string hedef)
+        //{
+        //    File.Copy(kaynak, hedef);
+        //}
+
+        //static void FileAppendText(string path, string deger)
+        //{
+        //    File.AppendAllText(path, deger);
+        //}
+
+        //static string ReadAllText(string path)
+        //{
+        //    return File.ReadAllText(path);
+        //}
+
+        #endregion
+
+
     }
 }
