@@ -676,6 +676,71 @@ namespace Bolum_24_Dosya_Klasor_Islemleri
         #endregion
 
 
+        #region VİDEO 229 File.Move ( Dosya Taşıma İşlemi )
+
+        //static void Main(string[] args)
+        //{
+
+        //    /*
+
+        //    Bolum 24 Dosya ve Klasor Islemleri V229 File.Move ( Dosya Taşıma İşlemi )
+
+        //    */
+
+
+        //    /*
+
+        //    1. not baslangıç
+
+        //    File.Move dosya taşıma işlemine bakalım
+
+        //    */
+
+
+
+        //    bool kontrol = FileExists("C:\\Udemy\\merhaba.txt");
+
+        //    if (kontrol)
+        //    {
+        //        Console.WriteLine("Belirtmiş olduğunuz dosya bulunmaktadır.");
+        //    }
+        //    else
+        //    {
+        //        FileCreate("C:\\Udemy\\merhaba.txt");
+        //    }
+
+        //    FileMove("C:\\Udemy\\merhaba.txt", "C:\\Udemy2\\merhaba.txt");
+
+        //    FileDelete("C:\\Udemy\\merhaba.txt");
+
+        //}
+
+        //static void FileCreate(string path)
+        //{
+        //    FileStream dosya = File.Create(path);
+        //    dosya.Close();
+        //}
+
+        //static bool FileExists(string path)
+        //{
+        //    return File.Exists(path);
+
+        //}
+
+        //static void FileDelete(string path)
+        //{
+        //    File.Delete(path);
+
+        //}
+
+        //static void FileMove(string kaynak, string hedef)
+        //{
+        //    File.Move(kaynak,hedef);
+
+        //}
+
+        #endregion
+
 
     }
 }
